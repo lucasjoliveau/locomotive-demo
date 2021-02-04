@@ -18,7 +18,10 @@ h1 {
 }
 
 
+span{
 
+    color: white;
+}
 
 
 
@@ -1393,7 +1396,7 @@ html:not(.has-scroll-smooth) .c-fixed {
 }
 .c-direction-block_item {
     position: absolute;
-    font-size: 10vw;
+    font-size: 5vw;
     white-space: nowrap;
     font-weight: 600;
     text-transform: uppercase;
@@ -1401,28 +1404,32 @@ html:not(.has-scroll-smooth) .c-fixed {
 }
 .c-direction-block_item span {
     display: block;
-    background-color: #fff;
+    background-color: #250103;
     white-space: nowrap;
     padding: 0 20px;
 }
 .c-direction-block_item.-one {
-    top: 33%;
-    transform: translateX(-50vw) rotate(26deg);
+    top: 53%;
+    transform: translateX(50vw) rotate(26deg);
+    left: 50%;
 }
 .c-direction-block_item.-two {
-    top: 45%;
+    top: 10%;
+    left: 50%;
+    transform: translateX(30vw) rotate(3deg);
+
 }
 .c-direction-block_item.-three {
     top: 55%;
-    transform: rotate(9deg);
+    left: 50%;
+    transform: translateX(-30vw) rotate(3deg);
+
 }
-.c-direction-block_item.-four {
-    top: 68%;
-    transform: translateX(-50vw) rotate(-19deg);
-}
+
 .c-direction-block_item.-five {
     top: 63%;
-    transform: translateX(-10vw) rotate(3deg);
+    left: 65%;
+    transform: translateX(-30vw) rotate(3deg);
 }
 .c-lerp-block {
     font-weight: 700;

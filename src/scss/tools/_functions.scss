@@ -1,4 +1,0 @@
-// Convert rem font size to px
-@function rem($fz){
-  @return ($fz / 16) + rem;
-}
